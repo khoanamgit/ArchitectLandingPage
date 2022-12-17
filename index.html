@@ -11,9 +11,9 @@
 </head>
 <body>
     <!-- Navbar -->
-    <div class="navbar">
+    <div class="navbar" id="navbar">
         <div class="logo">
-            <p><span>BR</span> Architects</p> 
+            <a href="#"><span>BR</span> Architects</a> 
         </div>
         <ul class="nav-list">
             <li class="nav-item">
@@ -149,23 +149,25 @@
                 <div class="contact-header">
                     Lets get in touch and talk about your next project.
                 </div>
-                <div class="contact-input-list">
-                    <div class="input">
-                        <input type="text" class="name input-item" placeholder="Name">
+                <form action="">
+                    <div class="contact-input-list">
+                        <div class="input">
+                            <input required type="text" class="name input-item" placeholder="Name">
+                        </div>
+                        <div class="input">
+                            <input required type="email" class="email input-item" placeholder="Email">
+                        </div>
+                        <div class="input">
+                            <input required type="text" class="subject input-item" placeholder="Subject">
+                        </div>
+                        <div class="input">
+                            <input required type="text" class="comment input-item" placeholder="Comment">
+                        </div>
                     </div>
-                    <div class="input">
-                        <input type="email" class="email input-item" placeholder="Email">
+                    <div class="contact-btn">
+                        <button class="btn">SEND MESSAGE</button>
                     </div>
-                    <div class="input">
-                        <input type="text" class="subject input-item" placeholder="Subject">
-                    </div>
-                    <div class="input">
-                        <input type="text" class="comment input-item" placeholder="Comment">
-                    </div>
-                </div>
-                <div class="contact-btn">
-                    <p>SEND MESSAGE</p>
-                </div>
+                </form>
             </div>
             
         </div>
