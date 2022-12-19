@@ -330,10 +330,14 @@ button:hover{
     } */
     
     .img-hero{
-        max-width: 100%;
-        object-fit: cover;
+        width: 100%; 
+        object-fit: cover; 
         margin-top: 55px;
-        overflow: hidden;
+        margin-left: 0;
+        margin-right: 0;
+        /* width: 100%;
+        margin-inline: unset; */
+        /* overflow: hidden; */
     }
 
     .nav-list{
